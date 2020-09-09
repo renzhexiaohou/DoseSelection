@@ -96,7 +96,7 @@ shinyUI(
                
                absolutePanel(
                  top = 90, right = 175, width = 160, height = 10, draggable = FALSE,
-                 titlePanel(h4(strong("Propotion")))
+                 titlePanel(h4(strong("Proportion")))
                ),
                absolutePanel(
                  top = 90, right = 80, width = 160, height = 10, draggable = FALSE,
