@@ -112,12 +112,6 @@ shinyServer(function(input, output, session) {
     round(max(pkconc()$conc, input$mec[2]))+0.5
   })
   
-  output$proportion1 <- renderText({
-    paste0(input$amt," mg benefits for average population ?")
-  })
-  output$proportion2 <- renderText({
-    paste0(input$amt," mg benefits for the majority ?")
-  })
   
   output$idvpkplot <- renderPlot({
     
