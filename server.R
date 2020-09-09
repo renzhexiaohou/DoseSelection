@@ -83,7 +83,7 @@ shinyServer(function(input, output, session) {
       data_set(dos) %>%
       mrgsim(set.seed(909),
              end = tau*n,
-             delta = 0.1)
+             delta = 0.2)
     
     # browser()
     
